@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 20px auto;
+  /*ここが効かない*/
+  text-align: center;
+}
+
+nav ul{
+  text-align: center;
+  padding: 15px 0;
+  margin :0 auto;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+
+}
+
+.main {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+.box {
+  display: inline-block;
+  width: 200px;
+  height:200px;
+}
+
+.green-left {
+  background-color: #e6ffe9;
+}
+
+.green-center-left {
+  background-color: #cdffd3;
+}
+
+.green-center-right {
+  background-color: #aeffbd;
+}
+
+.green-right {
+  background-color: #93ffab;
+}
+
+.yellow-left {
+  background-color: #f3ffd8;
+}
+
+.yellow-center-left {
+  background-color: #edffbe;
+}
+
+.yellow-center-right {
+  background-color: #e9ffa5;
+}
+
+.yellow-right {
+  background-color: #e4ff8d;
+}
+
+.blue-left {
+  background-color: #d9e5ff;
+}
+
+.blue-center-left {
+  background-color: #bad3ff;
+}
+
+.blue-center-right {
+  background-color: #a4c6ff;
+}
+
+.blue-right {
+  background-color: #8eb8ff;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: grey;
+  text-align: center;
+  line-height: 120px;
+}
+
+.footer-text {
+  color: #fff;
+}
