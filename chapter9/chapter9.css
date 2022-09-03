@@ -69,22 +69,3 @@ footer {
   background-color: #aaaaaa;
   height: 50px;
 }
-
-@media screen and (max-width: 768px) {
-  main {
-    width: 100%;
-    display: block;
-  }
-
-  .content {
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-  }
-
-  .content:last-child {
-    margin-right: 0;
-    margin: 0 auto;
-  }
-
-}
